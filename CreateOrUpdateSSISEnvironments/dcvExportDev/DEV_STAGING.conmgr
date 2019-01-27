@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DEV_STAGING"
+  DTS:DTSID="{ADA4DAA7-4299-4CF2-97C7-34E73AB09CB6}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::DEV_STAGING_ServerName]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=dcvdev.database.windows.net;User ID=rbarley;Initial Catalog=DEV_STAGING;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYbFZkGAXh02/WYfcJ5KuiAAAAAACAAAAAAAQZgAAAAEAACAAAABsO+b03OAPwxKbWCsr9jKVQ8HVdK48r+K+GRMtSoRpxQAAAAAOgAAAAAIAACAAAAAmpFD02YBpgeWYN7geAqvDD366h4aibCFTuSKPgnb27oAAAAB33WXMu0QX/UvxcYYtRdOC+trkYQ1NbdGEM31hDiNcgolnk7AOxiQG3AJzX9fRV+WkrWQe7ThRdRK5SJRMYzRLoP0noCOKQoUh/E7tG5njz/HMVdiFdKSaJrXz/YO9wUqoe++dxfHJHtRxKhzLa+36NXIvdkIlrat/Jx8wAPADGUAAAAB0kohi4noyWFaz/l6FQln2tlrwxQytx3jDPqjXx7Z/xxtkUx7KHUjSz1G12IkQrdR0eEZ50H+hiNbPuNKhO+Pp</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
